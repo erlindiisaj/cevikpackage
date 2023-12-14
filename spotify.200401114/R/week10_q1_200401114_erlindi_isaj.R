@@ -119,16 +119,9 @@ spotify_top_tracks <- function(artist_ids) {
 
 
 
-
-
-create_package("spotify.200401114")
-
-use_mit_license("Erlindi Isaj")
-
-use_readme_md()
-
 use_package("httr")
 
 use_data(spotify_token, overwrite = TRUE)
 use_data(spotify_search_artist, overwrite = TRUE)
 use_data(spotify_artist_top_track, overwrite = TRUE)
+use_data(spotify_top_tracks, overwrite = TRUE)
